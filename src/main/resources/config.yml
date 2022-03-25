@@ -1,0 +1,24 @@
+#Use the material type, like IRON, DIAMOND, LEATHER, GOLD or IRON
+#example: 
+#If it's empty, Leather armor will be used as default
+#ArmorTypes: [IRON, DIAMOND, LEATHER]
+#This will add into exceptions any armor of the material iron, diamond or leather
+ArmorTypes: [Leather]
+
+#Use the name of the event who damaged the player
+#Keep i empty if you don't need events
+#example:
+#DamageEventExceptions: [LAVA, FIRE, SUFFOCATION]
+#You can fin other reasons here:
+#https://hub.spigotmc.org/javadocs/spigot/org/bukkit/event/entity/EntityDamageEvent.DamageCause.html
+DamageEventExceptions: []
+
+
+#Use the name of the entity to ignore item damage.
+#Keep it empty if you don't need it
+#You can find other Entities names here:
+#https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html
+#example:
+#EntitiesExceptions: [ZOMBIE, ENDERMITE]
+EntitiesExceptions: [Arrow]
+
